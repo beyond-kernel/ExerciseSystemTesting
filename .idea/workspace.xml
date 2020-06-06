@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96576997-902b-4b3c-b1a8-ae69ac1083c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,42 +191,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591395660433" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1591320683995">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1591404630886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="119" key="FileChooserDialogImpl/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591320683995" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1591401584058">
+    <state x="462" y="119" key="FileChooserDialogImpl/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404630886" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1591404833016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584058" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1591401584057">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1591404833016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584057" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1591401584057">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1591404833015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584057" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1591401584058">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833015" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1591404833016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584058" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591325965361">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591404842312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965361" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1591325965360">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1591404842312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1591325965360">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1591404842312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1591325965360">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1591404842312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
     <state x="435" y="285" width="496" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1591320686362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,5 +239,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591317963157" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="urgente" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
