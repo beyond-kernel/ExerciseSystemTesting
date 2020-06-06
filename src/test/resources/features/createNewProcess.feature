@@ -1,3 +1,4 @@
+@DefaultTest
 Feature: Create new Process
 
   Background:
