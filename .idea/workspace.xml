@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96576997-902b-4b3c-b1a8-ae69ac1083c9" name="Default Changelist" comment="" />
+    <list default="true" id="96576997-902b-4b3c-b1a8-ae69ac1083c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +47,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Create a new user">
+  <component name="RunManager" selected="Cucumber Java.Feature: createNewProcess">
     <configuration name="Feature: CRUDUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDUser.feature" />
@@ -61,14 +67,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: createNewProcess" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="system-testing" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="SUGGESTED_NAME" value="Feature: createNewProcess" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +125,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with valid user and valid password." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create new process valid" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginImpacta.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="system-testing" />
-      <option name="NAME_FILTER" value="^Login with valid user and valid password\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with valid user and valid password\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid user and valid password." />
+      <option name="NAME_FILTER" value="^Create new process valid$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create new process valid$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create new process valid" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: createNewProcess" />
+        <item itemvalue="Cucumber Java.Scenario: Create new process valid" />
         <item itemvalue="Cucumber Java.Scenario: Create a new user" />
         <item itemvalue="Cucumber Java.Feature: CRUDUser" />
         <item itemvalue="Cucumber Java.Feature: loginImpacta" />
-        <item itemvalue="Cucumber Java.Scenario: Login with valid user and valid password." />
-        <item itemvalue="Cucumber Java.Feature: login" />
       </list>
     </recent_temporary>
   </component>
@@ -187,22 +193,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591320683995" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1591325965360">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1591401584058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1591325965360">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584058" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1591401584057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1591325965360">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584057" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1591401584057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1591325965360">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584057" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1591401584058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591325965360" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591401584058" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591325965361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
