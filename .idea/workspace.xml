@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96576997-902b-4b3c-b1a8-ae69ac1083c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MenuProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/MenuProcess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ProcessGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ProcessGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +30,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -59,8 +47,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33448276" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -251,50 +239,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404630886" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1591475638922">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1591477376451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1591475638922">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591477376451" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1591477376451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1591475638921">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591477376451" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1591477376451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833015" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591475638921" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1591475638922">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591477376451" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1591477376451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591475638816">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591477376451" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591477376452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591475638816" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591475638815">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591477376452" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591477376452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591475638815" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591475638815">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591477376452" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591477376452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591475638815" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591475638816">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591477376452" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591477376452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591475638816" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1591476023520">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591477376452" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1591476941609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591476023520" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591476941609" />
     <state x="583" y="190" key="chooseDestDirectoryDialog" timestamp="1591467844820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,10 +291,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="285" width="496" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591320686362" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1591318892535">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="381" y="183" key="run.anything.popup" timestamp="1591477710534">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="339" y="162" key="run.anything.popup/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591318892535" />
+    <state x="381" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591477710534" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591317963157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
