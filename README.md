@@ -1,2 +1,2 @@
-# impacta-system-testing
-System testing with java for Impacta studients
+# impacta-system-testing Exercise
+# Dupla Rafael e David Jr.
