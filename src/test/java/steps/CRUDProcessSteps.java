@@ -6,11 +6,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import pages.Home;
-import pages.MenuProcess;
-import pages.ProcessGrid;
-import pages.ProcessNew;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import pages.*;
 import support.BaseSteps;
+import support.ProcessoDados;
 import support.RESTSupport;
 
 public class CRUDProcessSteps extends BaseSteps {
@@ -18,6 +19,7 @@ public class CRUDProcessSteps extends BaseSteps {
     private MenuProcess menu = new MenuProcess(driver);
     private ProcessGrid processGrid = new ProcessGrid(driver);
     private ProcessNew processNew = new ProcessNew(driver);
+    private ProcessoDados process = new ProcessoDados();
 
     @Given("^the user is on Agapito server page$")
     public void theUserIsOnAgapitoServerPage() {
@@ -38,14 +40,12 @@ public class CRUDProcessSteps extends BaseSteps {
     public void theUserFillsVaraEqual(String vara) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         driver.sendKeys(vara,"#processo_vara", "css");
-
     }
 
     @And("^the user fills numero processo equal \"([^\"]*)\"$")
     public void theUserFillsNumeroProcessoEqual(String numero) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         driver.sendKeys(numero,"#processo_numero_processo", "css");
-
     }
 
     @And("^the user fills natureza equal \"([^\"]*)\"$")
@@ -121,5 +121,39 @@ public class CRUDProcessSteps extends BaseSteps {
     @Then("^the user should see \"([^\"]*)\" into success page$")
     public void theUserShouldSeeIntoSuccessPage(String message) throws Throwable {
         Assert.assertEquals(message, driver.getText("notice"));
+        process.SetNumeroProcesso(driver.getText("//*[@id=\"codigo\"]", "xpath"));
+    }
+
+    @And("^the user clicks on Load Process button$")
+    public void theUserClicksOnLoadProcessButton() {
+        processGrid.clickGetProcess(process.GetNumeroProcesso());
+    }
+
+    @Then("^the user should see \"([^\"]*)\" into get page$")
+    public void theUserShouldSeeIntoGetPage(String message) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+        Assert.assertEquals(message, driver.getText("//*[@id=\"codigo\"]", "xpath"));
+    }
+
+    @And("^the user clicks on Update Process button$")
+    public void theUserClicksOnUpdateProcessButton() {
+        processGrid.clickUpdateProcess(process.GetNumeroProcesso());
+    }
+
+    @Then("^the user should see into get page$")
+    public void theUserShouldSeeIntoGetPage() {
+        Assert.assertEquals(process.GetNumeroProcesso(), driver.getText("//*[@id=\"codigo\"]", "xpath"));
+    }
+
+    @And("^the user clicks on  return button$")
+    public void theUserClicksOnReturnButton() {
+        menu.clickProcessReturn();
+    }
+
+    @And("^the user clicks on Delete Process button$")
+    public void theUserClicksOnDeleteProcessButton(){
+
+        processGrid.clickDeleteProcess(process.GetNumeroProcesso());
     }
 }

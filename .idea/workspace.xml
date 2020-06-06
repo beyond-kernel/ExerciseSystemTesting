@@ -11,12 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96576997-902b-4b3c-b1a8-ae69ac1083c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProcessGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/createNewProcess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MenuProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/MenuProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ProcessGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ProcessGrid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/CRUDProcessSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1csCX7IPUnSX4yYfsKFYMA5e5RJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,33 +56,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.33448276" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="support" />
       <recent name="pages" />
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: createNewProcess">
-    <configuration name="Feature: CRUDUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CRUDUser.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="system-testing" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: CRUDUser" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: createNewProcess" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" />
@@ -89,6 +91,8 @@
       </method>
     </configuration>
     <configuration name="Feature: loginImpacta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginImpacta.feature" />
       <option name="GLUE" value="steps" />
@@ -147,13 +151,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: &lt;descricao&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createNewProcess.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="system-testing" />
+      <option name="NAME_FILTER" value="^.*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^.*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &lt;descricao&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: createNewProcess" />
+      <item itemvalue="Cucumber Java.Feature: loginImpacta" />
+      <item itemvalue="Cucumber Java.Scenario: &lt;descricao&gt;" />
+      <item itemvalue="Cucumber Java.Scenario: Create a new user" />
+      <item itemvalue="Cucumber Java.Scenario: Create new process valid" />
+      <item itemvalue="Gradle.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: createNewProcess" />
-        <item itemvalue="Cucumber Java.Scenario: Create new process valid" />
-        <item itemvalue="Cucumber Java.Scenario: Create a new user" />
-        <item itemvalue="Cucumber Java.Feature: CRUDUser" />
-        <item itemvalue="Cucumber Java.Feature: loginImpacta" />
+        <item itemvalue="Cucumber Java.Scenario: &lt;descricao&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -183,50 +229,76 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591313229256">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591476140431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591476140431" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1591469745781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591469745781" />
+    <state x="464" y="157" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591470033042">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591313229256" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591395660433">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="464" y="157" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591470033042" />
+    <state x="464" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591467907672">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591395660433" />
+    <state x="464" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591467907672" />
     <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1591404630886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404630886" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1591404833016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1591475638922">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1591404833016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1591475638922">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1591404833015">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1591475638921">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833015" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1591404833016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591475638921" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1591475638922">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404833016" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591404842312">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591475638922" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591475638816">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.bottom/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1591404842312">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591475638816" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591475638815">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.center/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1591404842312">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591475638815" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591475638815">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.left/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1591404842312">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591475638815" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591475638816">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591404842312" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591475638816" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1591476023520">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591476023520" />
+    <state x="583" y="190" key="chooseDestDirectoryDialog" timestamp="1591467844820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1591467844820" />
     <state x="435" y="285" width="496" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1591320686362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,18 +313,9 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/-13.-768.1360.728/1366.0.1440.900/-1280.0.1280.1024/0.0.1366.728@0.0.1366.728" timestamp="1591317963157" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/CRUDProcessSteps.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CucumberJavaRunConfigurationType">
-        <watch expression="urgente" language="JAVA" />
+        <watch expression="process.GetNumeroProcesso()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

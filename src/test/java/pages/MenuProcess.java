@@ -13,4 +13,8 @@ public class MenuProcess extends BasePage{
     public void clickProcess() {
         driver.click("#processos", "css");
     }
+
+    public void clickProcessReturn() {
+        driver.click("/html/body/main/div/a[2]", "xpath");
+    }
 }
